@@ -94,7 +94,7 @@ public class AppTest
 	}
 
 	/**
-	 * Test que prueba 10 llamadas en linea y verifica que se atiendan
+	 * Test que prueba 10 llamadas de forma secuencial rapida y verifica que se atiendan
 	 * todos los clientes
 	 */
 	@Test(timeout=60000)
@@ -158,7 +158,7 @@ public class AppTest
 
 
 	/**
-	 * Test que prueba mas de 10 llamadas en linea y verifica que termine de 
+	 * Test que prueba mas de 10 llamadas de forma secuencial rapida y verifica que termine de 
 	 * atender todos los clientes
 	 */
 	@Test(timeout=60000)
