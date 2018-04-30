@@ -83,7 +83,6 @@ public class Telefono implements Runnable {
 	public void procesar() throws InterruptedException{
 		Random ran = new Random();
 		int x = ((ran.nextInt(6))+5)*1000;
-		System.out.println("duerme porr.... " +x +"segundos");
 		Thread.sleep(x);
 		System.out.println("Consumidor .......... Procesando llamada " +empleado.getId() + " de tipo "+ empleado.getTipo());
 		empleado.setEstado(true);

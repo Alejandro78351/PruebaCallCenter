@@ -63,7 +63,6 @@ public class Dispatcher {
 	public synchronized boolean incomingCall( Integer n)	throws InterruptedException 
 	{
 		if( llamadas.size() ==tamaniocola){
-				//System.out.println("Ingresando   no hay espacio buffer");		
 				return false;
 			}
 		System.out.println("Poniendo mensaje "+ n);

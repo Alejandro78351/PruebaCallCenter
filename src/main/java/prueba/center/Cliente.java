@@ -55,13 +55,11 @@ public class Cliente implements Runnable {
 			try {
 				int n = new Integer( 1 );
 				while ( !dispatcher.incomingCall(n) );{
-					System.out.println("Productooooooor ............ enviando");
 				}
 			} catch (
 					InterruptedException e ){
 			};
 		
-		System.out.println("Productooooooor ............ sacando cliente");
 			dispatcher.retirarCliente( );
 			
 			try {
