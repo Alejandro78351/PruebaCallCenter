@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="prueba.center.AppTest" time="60.123" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="prueba.center.AppTest" time="58.115" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
@@ -65,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="prueba.center.AppTest" name="testMayorNumeroLLamadas" time="20.017"/>
-  <testcase classname="prueba.center.AppTest" name="testLlamadasenLineaBase" time="10.043"/>
-  <testcase classname="prueba.center.AppTest" name="testEscenarioBase" time="10.024"/>
-  <testcase classname="prueba.center.AppTest" name="testMayorLlamadasenLinea" time="20.039"/>
+  <testcase classname="prueba.center.AppTest" name="testMayorNumeroLLamadas" time="19.051"/>
+  <testcase classname="prueba.center.AppTest" name="testLlamadasenLineaBase" time="9.021"/>
+  <testcase classname="prueba.center.AppTest" name="testEscenarioBase" time="10.022"/>
+  <testcase classname="prueba.center.AppTest" name="testMayorLlamadasenLinea" time="20.021"/>
 </testsuite>
